@@ -1,0 +1,8 @@
+<Alloy>
+	<TabGroup>
+		<Require src="calculator"></Require>
+		<Require src="damageTable"></Require>
+		<Require src="fireDamageTable"></Require>
+		<Require src="registerEquip"></Require>
+	</TabGroup>
+</Alloy>

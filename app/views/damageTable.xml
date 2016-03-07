@@ -1,0 +1,6 @@
+<Alloy>
+	<Tab id="tab" title="ダメージ表" icon="KS_nav_views.png">
+		<Window id="win" class="container">
+		</Window>
+	</Tab>
+</Alloy>

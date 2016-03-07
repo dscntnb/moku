@@ -1,0 +1,45 @@
+<Alloy>
+	<Tab id="tab" title="計算機" icon="KS_nav_ui.png">
+		<Window id="win" class="container">
+			<View id="header">
+				<ScrollView id="logs"></ScrollView>
+			</View>
+			<View id="body">
+				<View id="toolbar">
+					<Label id="equipLabel"></Label>
+					<Button id="selectEquip">装備選択</Button>
+					<Button id="reset">リセット</Button>
+				</View>
+				<View id="hps">
+					<Label id="tl" class="hp"></Label>
+					<Label id="tc" class="hp"></Label>
+					<Label id="tr" class="hp"></Label>
+					<Label id="cl" class="hp"></Label>
+					<Label id="cc" class="hp"></Label>
+					<Label id="cr" class="hp"></Label>
+					<Label id="bl" class="hp"></Label>
+					<Label id="bc" class="hp"></Label>
+					<Label id="br" class="hp"></Label>
+				</View>
+			</View>
+			<View id="footer">
+				<View id="numberView">
+					<Button onClick="onCalcButton" class="calcButton">7</Button>
+					<Button onClick="onCalcButton" class="calcButton">8</Button>
+					<Button onClick="onCalcButton" class="calcButton">9</Button>
+					<Button onClick="onCalcButton" class="calcButton">4</Button>
+					<Button onClick="onCalcButton" class="calcButton">5</Button>
+					<Button onClick="onCalcButton" class="calcButton">6</Button>
+					<Button onClick="onCalcButton" class="calcButton">1</Button>
+					<Button onClick="onCalcButton" class="calcButton">2</Button>
+					<Button onClick="onCalcButton" class="calcButton">3</Button>
+					<Button id="zeroButton" onClick="onCalcButton" class="calcButton">0</Button>
+				</View>
+				<View id="actionView">
+					<Button id="deleteButton" class="calcButton">DEL</Button>
+					<Button id="doneButton" class="calcButton">決定</Button>
+				</View>
+			</View>
+		</Window>
+	</Tab>
+</Alloy>

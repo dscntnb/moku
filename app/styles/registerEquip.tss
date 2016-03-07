@@ -1,0 +1,84 @@
+".container": {
+	backgroundColor: "white"
+	// layout: 'vertical'
+},
+
+"#header": {
+	top: 0,
+	height: '50dp',
+	layout: 'horizontal',
+	backgroundColor: '#F8F8F8'
+},
+"#logs": {
+	x: 0,
+	y: 0,
+	// 特技200回分くらいログが保存できる幅
+	contentWidth: '10000dp',
+	showHorizontalScrollIndicator: true,
+	layout: 'horizontal',
+	scrollType: 'horizontal'
+},
+
+"#body": {
+	top: '50dp',
+	bottom: '180dp',
+	backgroundColor: '#F8F8F8'
+},
+"#toolbar": {
+	right: '180dp',
+	layout: 'vertical'
+},
+"#reset": {
+},
+"#equipLabel": {
+	height: '60dp',
+	color: 'black',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font: { fontSize: '20dp', fontWeight: 'bold' }
+},
+"#hps": {
+	right: 0,
+	width: '180dp',
+	layout: 'horizontal'
+},
+".hp": {
+	width: '60dp',
+	height: '60dp',
+	backgroundColor: 'white',
+	borderColor: 'black',
+	borderWidth: '1dp',
+	color: 'black',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font: { fontSize: '20dp', fontWeight: 'bold' },
+	// custom
+	isLog: false,
+	damages: []
+},
+
+"#footer": {
+	bottom: 0,
+	height: '180dp'
+},
+"#numberView": {
+	left: '5dp',
+	width: '230dp',
+	layout: 'horizontal'
+},
+"#actionView": {
+	left: '235dp',
+	layout: 'horizontal'
+},
+".calcButton": {
+	width: '75dp',
+	height: '45dp'
+},
+"#zeroButton": {
+	width: '150dp'
+},
+"#doneButton": {
+	height: '135dp',
+	enabled: false
+},
+"#deleteButton": {
+	enabled: false
+}
